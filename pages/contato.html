@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/contato.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 03- Contato</title>
+</head>
+<body>
+    <header class="menu">
+        <div>
+            <a href="../index.html"><img src="../image/botao-home-para-interface.png" alt=""></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../pages/infoReact.html">React</a></li>
+                <li><a href="../pages/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main >
+        <div class="container">
+            <div id="formulario">
+                <h1>Formulario de contato</h1>
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+            <div id="informacoes_contato">
+                <h2>Informações de Contato</h2>
+                <ul>
+                  <li><strong>Telefone:</strong> (11) 1234-5678</li>
+                  <li><strong>Email:</strong> contato@seudomínio.com</li>
+                  <li><strong>Endereço:</strong> Rua dos Exemplos, 123 - São Paulo/SP</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>&copy; 2023 Codeless. Todos os direitos reservados.</p>
+            <p>Autor: Albert Allan Ramos - Desafio React 03</p>
+        </div>
+    </footer>
+    <script src="../js/FormContato.js"></script>
+</body>
+</html>

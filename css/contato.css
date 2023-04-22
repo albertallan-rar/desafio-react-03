@@ -1,0 +1,155 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* ================MENU================ */
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #333;
+    
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu li {
+  margin-right: 1rem;
+  display: inline;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.menu a:hover{
+    color:rgb(29, 158, 245)
+}
+
+img {
+    width: 25px;
+    height: 22px;
+    
+}
+
+@media(max-width:768px){
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu li{
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+}
+/* ================BODY================ */
+  
+main {
+padding: 20px;
+background-color: black;
+}
+
+.container{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #333;
+    border-radius: 18px;
+    border: none;
+}
+
+.container #formulario {
+margin-bottom: 30px;
+
+}
+
+.container h1 {
+    color:rgb(29, 158, 245);
+    padding-top: 5px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.container form {
+    display: grid;
+    gap: 10px;
+}
+
+.container label{
+    color: #fff;
+    font-size: 14px;
+}
+
+.container input{
+    border-radius: 3rem;
+    border-color: brown;
+}
+
+.container textarea{
+    border-radius: 20px;
+    border-color: brown;
+}
+
+.container label,
+.container input,
+.container textarea {
+    font-size: 16px;
+    padding: 10px;
+    margin: 0px 10px;
+    
+}
+
+input[type="submit"] {
+background-color: #007bff;
+color: #fff;
+border: none;
+cursor: pointer;
+padding: 12px;
+font-size: 18px;
+margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+background-color: #0056b3;
+}
+
+#informacoes_contato{
+    text-align: center; 
+}
+
+#informacoes_contato h2, #informacoes_contato strong{
+    color:rgb(29, 158, 245); 
+}
+
+#informacoes_contato ul li{
+    color: #fff;
+}
+
+#informacoes_contato ul {
+    list-style-type: none;
+    padding: 5px 0px;
+    margin: 0 10px;
+}
+
+/* ================FOOTER================ */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: rgb(29, 158, 245);;
+    padding: 10px;
+    text-align: center;
+}
